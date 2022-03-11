@@ -20,3 +20,7 @@
    - npm un underscore: 설치 라이브러리 삭제
    - npm oudated : 업데이트 필요 라이브러리 확인
    - npm update underscore: 업데이트 하기
+5. 개발용 라이브러리
+   - 개발용은 dependency에 포함되면 안되기 때문에
+     - npm i nodemon --save-dev로 설치
+   - nodemon: 파일이 변경되면 업데이트해서 보여준다
